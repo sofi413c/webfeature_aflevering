@@ -15,6 +15,8 @@ module.exports = {
       s_jord: "#DD5023",
       t_true_black: "#000000",
     },
+
+  
     extend: {},
   },
   plugins: [require("@tailwindcss/typography"), require("@tailwindcss/forms")],
