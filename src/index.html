@@ -1,41 +1,37 @@
 <!DOCTYPE html>
 <html lang="da">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pierre Falcke - Webfeature</title>
-    <link rel="stylesheet" href="https://use.typekit.net/ftj1dfj.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Geo&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <header>
-      <nav>
-        <ul class="hidden">
-          <li><a href="index.html">FORSIDE</a></li>
-          <li><a href="#omham">OM HAM</a></li>
-          <li><a href="#projekter">PROJEKTER</a></li>
-          <li><a href="#berommelse">BERØMMELSE</a></li>
-          <li><a href="#skillevej">SKILLEVEJ</a></li>
-          <li><a href="#nybegyndelse">NY BEGYNDELSE</a></li>
-          <li><a href="#lidtifem">LIDT I FEM</a></li>
-          <li><a href="#analogfotografering">ANALOG FOTOGRAFERING</a></li>
-          <li><a href="#udstyr">UDSTYR</a></li>
-          <li><a href="#tilmindeom">TIL MINDE OM</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section
-        id="start"
-        class="max-h-screen min-h-screen overflow-y-scroll bg-[url(/rsc/sh-skidt.jpg)] bg-cover bg-fixed"
-      >
-        <!-- <div class="min-h-screen">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pierre Falcke - Webfeature</title>
+  <link rel="stylesheet" href="https://use.typekit.net/ftj1dfj.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav class="place-items-end">
+      <button class="hamburger fixed z-50 top-1 right-1 p-4 cursor-pointer">
+        <i class="menuIcon material-icons text-4xl">menu</i>
+        <i class="closeIcon material-icons hidden">close</i>
+      </button>
+      <ul class="fixed translate-x-full transition-transform top-0 right-0 w-4/5 bottom-0 z-40 backdrop-blur-lg bg-s_black/30 pt-4 text-3xl text-right text-s_white pt-20 pr-7 font-thin" id="hammenu">
+        <li><a class="menuItem" href="index.html">Forside</a></li>
+        <li><a class="menuItem" href="#omham">Om Pierre</a></li>
+        <li><a class="menuItem" href="#projekter">Projekter</a></li>
+        <li><a class="menuItem" href="#berommelse">Berømmelse</a></li>
+        <li><a class="menuItem" href="#skillevej">Skillevej</a></li>
+        <li><a class="menuItem" href="#nybegyndelse">Ny begyndelse</a></li>
+        <li><a class="menuItem" href="#lidtifem">Lidt i Fem</a></li>
+        <li><a class="menuItem" href="#analogfotografering">Analog Fotografering</a></li>
+        <li><a class="menuItem" href="#udstyr">Udstyr</a></li>
+        <li><a class="menuItem" href="#tilmindeom">Til minde om</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="">
+    <section id="start" class="bg-[url(/rsc/sh-skidt.jpg)] bg-cover min-h-screen max-h-screen bg-fixed overflow-y-scroll">
+      <!-- <div class="min-h-screen">
       </div> -->
         <div class="mx-16 my-52 justify-between">
           <h1 class="text-6xl font-extrabold text-s_yellow lg:text-9xl">
@@ -274,6 +270,7 @@
       >
         <!-- <div class="min-h-screen">
       </div> -->
+<<<<<<< HEAD
         <div class="m-28 mx-3 my-8 mt-32 text-p_light_grey">
           <h2 class="text-6xl font-extrabold">PIERRES UDSTYR</h2>
           <p class="bg-p_grey tracking-wide">
@@ -305,3 +302,15 @@
     <script type="module" src="./main.js"></script>
   </body>
 </html>
+=======
+      <div class="my-20">
+        <h2 class="text-s_white text-center text-6xl tracking-wider">Pierre Falcke</h2>
+        <p class="text-s_white text-center italic text-3xl font-light">14 . 08 . 1912  -  31 . 01 . 2023</p>
+      </div>
+    </section>
+  </main>
+  <script type="module" src="./main.js"></script>
+  <script async src="scripts.js"></script>
+</body>
+</html>
+>>>>>>> burger-menu-mobile
