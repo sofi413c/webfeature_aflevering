@@ -1,2 +1,6 @@
 import "./style.css";
-scroll(animate(".progress-bar", { scaleX: [0, 1] }));
+
+import { animate, scroll } from "motion";
+
+scroll(animate(".progress-bar", { scaleY: [0, 1] }));
+
